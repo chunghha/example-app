@@ -6,7 +6,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng lint --type-check && ng test --single-run"
+    "test": "ng lint --type-check && ng test --single-run",
+    "doc": "./node_modules/.bin/compodoc --theme stripe -p src/tsconfig.app.json",
+    "doc:serve": "./node_modules/.bin/compodoc -s"
   },
   "engines": {
     "node": ">=6.9.5"
